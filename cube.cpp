@@ -1,15 +1,23 @@
 #include "cube.h"
+#include <fstream>
+#include <iostream>
 
 cube::cube(const char* const & pla_file) {
 	
 }
 
-cube::expand() {
+bool cube::expand(string implicant) {
 
 }
 
-cube::validity_check() {
+vector<string> cube::reduce() {
 
 }
 
-cube::
+void cube::remove_covered_implicants() {
+
+}
+
+bool cube::validity_check() {
+
+}
