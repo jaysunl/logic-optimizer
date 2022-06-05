@@ -1,6 +1,15 @@
 /**
- * Header file for the Espresso algorithm
+ * Define the structs and objects needed to perform operations
  */
 
-#include <string.h>
+#include <stdio.h>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <tuple>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
 

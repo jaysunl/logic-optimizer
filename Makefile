@@ -4,7 +4,7 @@ OUTFILES=OptimizeTest
 
 all: $(OUTFILES)
 
-GraphTest: OptimizeTest.cpp Optimize.cpp Optimize.h
+PLATest: OptimizeTest.cpp Optimize.cpp Optimize.h
 	$(CXX) $(CXXFLAGS) -o OptimizeTest OptimizeTest.cpp Optimize.cpp
 
 clean:
